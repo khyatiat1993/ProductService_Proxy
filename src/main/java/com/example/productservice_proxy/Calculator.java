@@ -41,4 +41,8 @@ public class Calculator {
     public int log10(int a) {
         return (int) Math.log10(a);
     }
+
+    public int average(int a, int b) {
+        return (a + b) / 2;
+    }
 }
